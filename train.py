@@ -86,7 +86,7 @@ else:
 if args.train_dir:
     train_dir = args.train_dir
 else:
-    train_dir = "./training"
+    train_dir = "./wav"
 
 if args.val_dir:
     val_dir = args.val_dir
