@@ -106,7 +106,7 @@ else:
 if args.model_type:
     model_type = model_type
 else:
-    model_type = "ravdess"
+    model_type = "emodb"
 
 if args.num_labels:
     NUM_LABELS = args.num_labels
